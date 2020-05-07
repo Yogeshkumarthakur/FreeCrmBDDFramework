@@ -1,6 +1,5 @@
-package StepDefinitions;
 //// working fine
-//package StepDefinations;
+//package StepDefinitions;
 //
 //import org.openqa.selenium.By;
 //import org.openqa.selenium.JavascriptExecutor;

@@ -1,27 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="0.079273">
-<testcase classname="Free CRM app test" name="free crm create deal test" time="0.078467">
-<system-out><![CDATA[Given user is on deal page..................................................passed
-When user fills the deals form..............................................passed
-Then deal is created........................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Free CRM app test" name="free crm create contact test" time="0.000265">
-<system-out><![CDATA[Given user is on contact page...............................................passed
-When user fills the contact form............................................passed
-Then contact is created.....................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Free CRM app test" name="free crm create mail test" time="0.000221">
-<system-out><![CDATA[Given user is on mail page..................................................passed
-When user fills the mail form...............................................passed
-Then mail is created........................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Free CRM app test" name="free crm create mail test 2" time="0.00032">
-<system-out><![CDATA[Given user is on mail page..................................................passed
-When user fills the mail form...............................................passed
-Then mail is created........................................................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="27.764878">
+<testcase classname="Deal data creation" name="Free CRM Create a new deal scenario" time="27.764878">
+<system-out><![CDATA[Given user is already on Login Page.........................................passed
+When title of login page is Free CRM........................................passed
+Then user enters username and password......................................passed
+Then user clicks on login button............................................passed
+Then user is on home page...................................................passed
+Then user moves to new deal page............................................passed
+Then user enters deal details...............................................passed
+Then Close the browser......................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

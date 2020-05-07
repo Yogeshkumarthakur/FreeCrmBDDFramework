@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "C:\\Users\\Yogesh\\eclipse-workspace\\Java Training\\FreeCrmBDDFramework\\src\\main\\java\\Features\\hooks.feature",//path of the features file
+		features = "C:\\Users\\Yogesh\\Codes\\FreeCrmBDDFramework\\FreeCrmBDDFramework\\src\\main\\java\\Features\\deals.feature",//path of the features file
         glue = {"StepDefinitions" },// the path or name of the step definition file
         format = { "pretty", "html:test-output","json:json_output/cucumber.json","junit:junit_xml/cucumber.xml" },//to generate different types of reporting
         monochrome = true, // display the console output in proper readable format
